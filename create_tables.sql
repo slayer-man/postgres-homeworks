@@ -8,7 +8,7 @@ CREATE TABLE employees (
 );
 
 CREATE TABLE customers (
-    customer_id VARCHAR(10) PRIMARY KEY,
+    customer_id VARCHAR(5) PRIMARY KEY,
     company_name VARCHAR(100) NOT NULL,
     contact_name VARCHAR(100)
 );
